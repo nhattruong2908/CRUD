@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/btngetdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get data" />
+    <Button
+        android:id="@+id/btngetjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get json" />
+    <Button
+        android:id="@+id/btngetarrayjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get array json" />
+    <Button
+        android:id="@+id/btnpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post" />
+    <Button
+        android:id="@+id/btnput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="put" />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
